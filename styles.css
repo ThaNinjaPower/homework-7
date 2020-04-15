@@ -1,9 +1,14 @@
 .grow { 
-    transition: all 0.5s ease-in-out; 
-    }
+    transition: all 0.3s ease-in-out; 
+}
     
 .grow:hover { 
     transform: scale(1.1); 
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .portfolio-card {
@@ -14,14 +19,33 @@
     max-width: 34rem;
 }
 
+.homework-card {
+    max-width: 16rem;
+}
+
+.portfolio-section {
+    justify-content: center;
+    margin: 1rem;
+}
+
+hr {
+    border-top: 3px solid #343a40;
+    align-self: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 95%;
+}
+
 a {
     color: white;
 }
 
-a:active {
+a:hover {
     color: white;
+    text-decoration: none;
 }
 
-a:hover {
+body {
+    background-color: #222222;
     color: white;
 }
